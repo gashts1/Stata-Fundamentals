@@ -72,7 +72,7 @@ pwd // check the current working directory
 /* Step 2: Copy-paste the last command that shows up on result screen.
    My results window shows this:*/   
 
-cd "/Users/dr.reneestarowicz/Downloads/Stata-Fundamentals-main 3/lessons"
+cd "Z:\home\gashts\Stata-Fundamentals\lessons"
 
    
 /***
@@ -141,7 +141,7 @@ use nlsw88_13, clear
 * You can use * to comment out lines of code that you want to suspend
 // you can use double slash to make comments at the end of a command line or just as a line by itself (like this one)
 // asterisk (*) cannot be placed at the end of a command line
-
+des
 des // describes the variables in the data
 des *  describes the variables in the data  <-- this is wrong!
 * des // this suspended the command altogether
@@ -252,8 +252,7 @@ codebook union  // shows the contents of the variable union
 *(2) value labels
 *(3) number of observations
 *(4) mean
-
-
+gen
 
 * COUNT *
 
